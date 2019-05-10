@@ -36,8 +36,8 @@ body{
 .title{
     border-right: 2px solid #ce1414;
     border-left: 2px solid #ce1414;
-    -webkit-text-decoration: overline underline;
-    text-decoration: overline underline;
+    -webkit-text-decoration: underline overline;
+    text-decoration: underline overline;
     font-size: 30px;
     text-align: center;
     padding: 50px 0 50px 0;
