@@ -1,0 +1,131 @@
+body{
+    background-color: #ffdddd;
+    display: grid;
+    grid-template-columns: 25% 600px 350px auto;
+    grid-template-rows: 204px auto auto auto;
+}
+.header{
+    background-image: url("background.jpg");
+    max-height: 250px;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    
+}
+.me{
+    border-right: 2px solid #ce1414;
+    background-color: #c9c5c5;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 10px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    
+}
+.navigation{
+   display: block;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.title{
+    border-right: 2px solid #ce1414;
+    border-left: 2px solid #ce1414;
+    text-decoration: overline underline;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    background-color: floralwhite;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.body{
+    border-right: 2px solid #ce1414;
+    border-left: 2px solid #ce1414;
+    padding: 0 25px 0 25px;
+    background-color: floralwhite;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 7;
+    
+}
+.profilePic{
+    border-radius: 15%;
+    height: 150px;
+    width: auto;
+    margin: auto;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+   
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /*border-radius: 85%;*/
+    
+    
+}
+li{
+    float: left;
+    
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+li a:hover{
+    background-color: black;
+}
+
+.info{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h3{
+    text-decoration: underline;
+}
+*{
+    font-family: verdana;
+}
+.end{
+    border-radius: 15%;
+    background-color: darkred
+}
+#end{
+    text-decoration: none;
+    color: mistyrose;
+    font-size: 14px;
+}
+
+
+.sticky {
+  position: fixed;
+  opacity: 0.4;
+  filter: Alpha(opacity=50);
+  top: 0;
+  margin: 0 24.75% ;
+  width: 39.5%;
+}
+.sticky:hover{
+    opacity: 1;
+    filter: Alpha(opacity=100);
+}
+.sticky + .content {
+  padding-top: 60px;
+}
