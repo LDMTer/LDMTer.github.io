@@ -4,9 +4,25 @@ body{
     grid-template-columns: 25% 600px 350px auto;
     grid-template-rows: 204px auto auto auto;
 }
+.bottom{
+    height: auto;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    text-align: center;
+}
+.bottomimg{
+    object-fit: cover;
+    object-position: 10% 50%;
+
+    width: 100%;
+    height: 150px; 
+}
 .header{
     background-image: url("background.jpg");
-    max-height: 250px;
+    max-height: 248px;
     height:auto;
     width: 100%;
     grid-column-start: 1;
@@ -18,6 +34,7 @@ body{
 .me{
     border-right: 2px solid #ce1414;
     background-color: #c9c5c5;
+    border-bottom: 2px solid #ce1414;
     text-align: center;
     padding-top: 25px;
     padding-left: 10px;
@@ -37,17 +54,19 @@ body{
 .title{
     border-right: 2px solid #ce1414;
     border-left: 2px solid #ce1414;
+    padding: 100px 0 100px 0;
     text-align: center;
-    padding: 50px 0 50px 0;
     background-color: floralwhite;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
 }
+
 .body{
     border-right: 2px solid #ce1414;
     border-left: 2px solid #ce1414;
+    border-bottom: 2px solid #ce1414;
     padding: 0 25px 0 25px;
     background-color: floralwhite;
     text-align: center;
@@ -61,7 +80,7 @@ body{
     border-radius: 15%;
     height: 150px;
     width: auto;
-    margin: auto;
+    margin: 25px 0;
 }
 
 
