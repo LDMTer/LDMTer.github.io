@@ -7,6 +7,7 @@
   <title>Loïc Delandmeter Portfolio</title>
      <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -17,7 +18,13 @@
         <div class="me">
             <img src="IMG_2842.JPG" class="profilePic">
             <h3 class="naam">Loïc Delandmeter</h3>
-            <h4>Informatica student aan UC Leuven-Limburg</h4>
+            <h4 style="margin-bottom: 25px;">Informatica student aan UC Leuven-Limburg</h4>
+            
+            <h6 style="font-weight: bold;padding-bottom: 10px;">Curriculum Vitae</h6>
+            
+            <form method="get" action="Resume_10_A4-converted.pdf">
+                <button class="btn" style="border-radius: 12px;" type="submit"><i class="fa fa-download"></i> Download!</button>
+            </form>
         </div>
         
         <div id="navbar" class="navigation">
@@ -52,7 +59,7 @@
             </p>
         </div>
         
-        <div class="info" id="skills">
+        <div class="info two" id="skills">
             <h3>Skills</h3>
                 <table>
                     <tr>
@@ -63,7 +70,7 @@
                   </tr>
                   <tr>
                     <td>Python</td>
-                    <td>MySQL</td>
+                    <td>PostgreSQL</td>
                     
                   </tr>
                     <tr>
@@ -142,7 +149,7 @@
     </div>
     
     
-    <script>
+<script>
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
