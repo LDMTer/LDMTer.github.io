@@ -2,7 +2,7 @@ body{
     background-color: #ffdddd;
    
     display: grid;
-    grid-template-columns: 25% 600px 350px auto;
+    grid-template-columns: 20% 800px 350px auto;
     grid-template-rows: 204px auto auto auto;
 }
 .bottom{
@@ -46,16 +46,30 @@ body{
     
 }
 .navigation{
-   display: block;
+    display: block;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
 }
+.navigationMenu{
+    /*background-color: red;*/
+    margin: 0 5%;
+    width: 100%;
+    height: auto;
+    background-color: darkred;
+    max-width: 500px;
+    display: block;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    border:5px solid darkred;
+}
 .title{
     border-right: 2px solid #ce1414;
     border-left: 2px solid #ce1414;
-    padding: 100px 0 100px 0;
+    padding: 100px 0 0 0;
     text-align: center;
     background-color: floralwhite;
     grid-column-start: 2;
@@ -77,12 +91,16 @@ body{
     grid-row-end: 7;
     
 }
+.cm{
+    width: auto;
+    
+    height: auto;
+    grid-row-start: 2;
+}
 .body2{
-     width: 100%;
+    width: 100%;
     margin: auto;
     padding: 0 15%;
-    
-   
     text-align: center;
     grid-column-start: 2;
     grid-column-end: 3;
@@ -96,12 +114,20 @@ body{
     width: auto;
     margin: 25px 0;
 }
-
+.body3{
+    /*background-color: aqua;*/
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 7;
+}
 
 ul{
     list-style-type: none;
-    margin: 0;
-   
+    margin: 0 ;
     padding: 0;
     overflow: hidden;
     background-color: #333;
@@ -118,13 +144,15 @@ li a{
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 40px 14px 2px;
+    width: auto;
     text-decoration: none;
     
 }
 li a:hover{
     border: 2px solid black;
     color: aqua;
+    padding: 12px 38px 12px 0px;
 }
 
 .info{
@@ -175,12 +203,12 @@ h5{
     font-size: 14px;
 }
 .sticky {
-  position: fixed;
-  opacity: 0.5;
-  filter: Alpha(opacity=50);
-  top: 0;
-  margin: 0 25% ;
-  width: 39.5%;
+    position: fixed;
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
+    top: 0;
+    margin: 0 25% ;
+    width: 39.5%;
 }
 .sticky:hover{
     opacity: 1;
@@ -190,6 +218,30 @@ h5{
 .sticky + .content {
   padding-top: 60px;
     
+}
+.sticky2 {
+    position: fixed;
+
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
+    top: 50px;
+    margin: 0 1% ;
+    width: 39.5%;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    
+}
+.sticky2:hover{
+    opacity: 1;
+    
+    filter: Alpha(opacity=100);
+}
+.sticky2 + .content {
+  padding-top: 60px;
+    
+}
+#navMenu{
+    width: 250px;
 }
 table{
     margin-top: 25px;

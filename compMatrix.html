@@ -1,0 +1,106 @@
+<!doctype html>
+
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+
+  <title>Loïc Delandmeter Portfolio</title>
+     <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body style="background-color: white;">
+    <div class="header">
+        </div>
+        
+        <div style="visibility: hidden;" id="navbar" class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+        <div id="navMenu" class="navigationMenu">
+            <ul>
+                <li><a style="text-align: left;" href="#gegbeh">1. Gegevens Behandelen</a></li>
+                <li><a style="text-align: left;" href="#anal">2. Analyseren</a></li>
+                <li><a style="text-align: left;" href="#opui">3. Oplossingen Uitwerken</a></li>
+                <li><a style="text-align: left;" href="#behe">4. Beheren</a></li>
+                <li><a style="text-align: left;" href="#prwe">5. Projectmatig Werken</a></li>
+                <li><a style="text-align: left;" href="#comm">6. Communiceren</a></li>
+                <li><a style="text-align: left;" href="#eigeaa">7. Eigen gedrag aanpassen</a></li>
+                <li><a style="text-align: left;" href="#kwha">8. Kwaliteitsvol handelen</a></li>
+            </ul>
+            
+            <ul style="display: inline-block;list-style-type: none;margin: 0;padding: 0;overflow: hidden;">
+                <li style="float: left">
+                    <a style="display: block;border:none; color: indianred;padding: 10px 35px 5px 20px;text-align:
+                    center;text-decoration: underline; font-weight: bold; font-size: 20px;" href="index.html">Home &#127960</a>  
+                </li>
+                
+                <li style="float: left">
+                    <a style="display: block; border:none; color: darkred;padding: 10px 35px 5px 20px;margin-right: 10px:;text-align:
+                    center;text-decoration: underline; font-weight: bold;font-size: 20px;" href="#back"> TOP   &#8682</a></li>
+            </ul>
+        </div>
+        
+        <div class="title" style="border: none; background-color: white; margin-top: 50px;" id="back">
+           
+                 <h1>Competentie Matrix</h1>
+        </div>
+        <div class="body3">
+            <div class="cm">
+                <img id="gegbeh" class="cm 1" src="cm1.png">
+                <img id="anal" class="cm 2" src="cm2.png">
+                <img id="opui" class="cm 3" src="cm3.png">
+                <img id="behe" class="cm 4" src="cm4.png">
+                <img id="prwe" class="cm 5" src="cm5.png">
+                <img id="comm" class="cm 6" src="cm6.png">
+                <img id="eigeaa" class="cm 7" src="cm7.png">
+                <img id="kwha" class="cm 8" src="cm8.png" style="padding-bottom: 150px;">
+                
+        </div>
+           
+            
+            </div>
+     <button class="end" style="width: 100px; height: auto;margin: 0 50%;"><a id="end" href="#back">Go Back Up</a></button>
+            
+    <div class="bottom">
+        <img class="bottomimg" src="background.jpg">
+        <p>© Copyright protected</p>
+    </div>
+    
+    
+<script>
+    window.onscroll = function() {myFunction()};
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+}
+
+</script>
+    
+<script>
+    window.onscroll = function() {myFunction2()};
+    var navMenu = document.getElementById("navMenu");
+    var sticky2 = navMenu.offsetTop;
+
+    function myFunction2() {
+      if (window.pageYOffset >= sticky2) {
+        navMenu.classList.add("sticky2");
+      } else {
+        navMenu.classList.remove("sticky2");
+      }
+    }
+</script>
+        
+<noscript>Sorry, your browser does not support JavaScript!</noscript>   
+  
+</body>
+</html>
